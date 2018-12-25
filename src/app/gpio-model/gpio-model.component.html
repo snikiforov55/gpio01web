@@ -1,0 +1,9 @@
+
+
+<h1>GPIO<h2>
+<div *ngIf="gpio">
+<div>{{gpio.name}} Details</div>
+<div><span>id:  </span>{{gpio.id}}</div>
+<div><span>pin: </span>{{gpio.pin}}</div>
+</div>
+<button (click)="refresh()">Refresh</button>

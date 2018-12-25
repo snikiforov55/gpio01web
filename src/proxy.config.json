@@ -1,0 +1,7 @@
+{
+  "/gpio/*":{
+    "target": "http://rasp01.local:7000",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}
